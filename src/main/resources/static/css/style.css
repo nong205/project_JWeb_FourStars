@@ -1,0 +1,34 @@
+.card-sh {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.cat-div{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+.error{
+    color: red;
+}
+
+.footer-list li {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #ffffffcc;
+}
+
+.footer-list li:hover {
+    color: #ffc107;
+    transform: translateX(5px);
+}
+
+
+.navbar-nav .nav-link {
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #ffc107; 
+    transform: translateX(3px);
+    /* box-shadow: 0 4px 10px rgba(255, 193, 7, 0.4);  */
+    text-shadow: 0 0 5px rgba(255, 193, 7, 0.5);/* Đổ bón */
+}
